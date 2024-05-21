@@ -1,6 +1,5 @@
 # Prática 2
 
-
 1. Configurar o VSCode para acessar o GitHub.
 
 a) Abra o aplicativo VSCode. Certifique-se de estar na pasta onde deseja clonar o repositório (ex:. Documents).
