@@ -19,5 +19,4 @@
 
 ## Execute o projeto através do comando:
 
-    - npm run dev
-    - npm run dev
+    - npm run dev 
