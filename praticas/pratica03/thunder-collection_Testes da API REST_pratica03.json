@@ -1,0 +1,117 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Testes da API REST_pratica03",
+    "collectionId": "27ef2318-3fe6-4dbb-b36c-d6f23fabefbc",
+    "dateExported": "2024-05-21T17:36:20.791Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1806d99d-0fcd-45ad-bcdb-1d009e9c642f",
+            "colId": "27ef2318-3fe6-4dbb-b36c-d6f23fabefbc",
+            "containerId": "",
+            "name": "https://dummyjson.com/products",
+            "url": "https://dummyjson.com/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-21T17:33:19.783Z",
+            "modified": "2024-05-21T17:33:19.783Z",
+            "headers": []
+        },
+        {
+            "_id": "fef1e871-177d-4ef7-9729-85c9bd8e805f",
+            "colId": "27ef2318-3fe6-4dbb-b36c-d6f23fabefbc",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/1",
+            "url": "https://dummyjson.com/products/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T17:33:26.483Z",
+            "modified": "2024-05-21T17:33:26.483Z",
+            "headers": []
+        },
+        {
+            "_id": "5d4e9ccf-5ed8-4e01-8448-e73161c6365b",
+            "colId": "27ef2318-3fe6-4dbb-b36c-d6f23fabefbc",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/101",
+            "url": "https://dummyjson.com/products/101",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-21T17:34:08.336Z",
+            "modified": "2024-05-21T17:34:08.336Z",
+            "headers": []
+        },
+        {
+            "_id": "1fc98a60-c1bd-4576-8683-12402fa5d399",
+            "colId": "27ef2318-3fe6-4dbb-b36c-d6f23fabefbc",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/add",
+            "url": "https://dummyjson.com/products/add",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-05-21T17:34:15.529Z",
+            "modified": "2024-05-21T17:34:15.529Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Galaxy S24 Ultra\", \n  \"description\": \"256GB | 12GB de RAM | Tela de 6.8 | Galaxy AI | Titânio Cinza\", \n  \"price\": 4.000\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "37c48e20-5c55-467b-95a5-146fdbf8f1cc",
+            "colId": "27ef2318-3fe6-4dbb-b36c-d6f23fabefbc",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/1",
+            "url": "https://dummyjson.com/products",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-05-21T17:34:27.039Z",
+            "modified": "2024-05-21T17:34:27.039Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"title\": \"Produto Atualizado\",\r\n  \"description\": \"Descrição atualizada\",\r\n  \"price\": 150\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b29530e0-375c-4ff9-9b9d-753461bfb220",
+            "colId": "27ef2318-3fe6-4dbb-b36c-d6f23fabefbc",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/101",
+            "url": "https://dummyjson.com/products/101",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-05-21T17:34:36.815Z",
+            "modified": "2024-05-21T17:34:36.815Z",
+            "headers": []
+        },
+        {
+            "_id": "f17e194f-a305-4521-821d-1058fe2fd88d",
+            "colId": "27ef2318-3fe6-4dbb-b36c-d6f23fabefbc",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/1",
+            "url": "https://dummyjson.com/products/1",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-05-21T17:34:48.861Z",
+            "modified": "2024-05-21T17:34:48.861Z",
+            "headers": []
+        },
+        {
+            "_id": "c1403ef3-29bc-432e-b909-bc64d003b350",
+            "colId": "27ef2318-3fe6-4dbb-b36c-d6f23fabefbc",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/101",
+            "url": "https://dummyjson.com/products/101",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-05-21T17:34:54.348Z",
+            "modified": "2024-05-21T17:34:54.348Z",
+            "headers": []
+        }
+    ],
+    "ref": "Rg8D_rDOagjUCqfpgHA-8n8y19CD5Rm8iuCYSdM2mAty6TeaK9VjeZJhSUePDcVurLIV6AMOWfiynFQmHmOFLQ"
+}
