@@ -79,4 +79,3 @@ b) Faça um commit com as modificações adicionadas.
 c) Caso não esteja configurado os parâmetros user.name e user.email, configure-os através do git.
 
 d) Envie o commit para o branch principal do seu repositório no GitHub.
-
