@@ -1,6 +1,5 @@
 # Prática 1
 
-
 1. Criação de Repositório no GitHub.
 
 a) Abra seu navegador e acesse o site do GitHub (https://github.com/).
