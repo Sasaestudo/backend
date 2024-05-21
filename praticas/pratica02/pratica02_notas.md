@@ -1,4 +1,5 @@
-Prática 2
+# Prática 2
+
 
 1. Configurar o VSCode para acessar o GitHub.
 

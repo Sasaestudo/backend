@@ -1,0 +1,24 @@
+{
+  "produtos": [
+    {
+      "nome": "banana nanica",
+      "preco": 1.99,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nome": "laranja",
+      "preco": 20
+    },
+    {
+      "id": "3",
+      "nome": "maçã",
+      "preco": 18
+    },
+    {
+      "id": "5358",
+      "nome": "kiwi",
+      "preco": 22
+    }
+  ]
+}

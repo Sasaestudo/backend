@@ -1,4 +1,4 @@
-# PRÁTICA 1
+# Prática 1
 
 
 1. Criação de Repositório no GitHub.

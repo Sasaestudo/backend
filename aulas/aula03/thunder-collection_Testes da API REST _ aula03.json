@@ -1,0 +1,69 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Testes da API REST _ aula03",
+    "collectionId": "11b62433-3d05-422a-849c-f0af64492ffb",
+    "dateExported": "2024-05-21T13:39:49.482Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c641cf5d-abce-4e88-a46c-a9636fbc9d99",
+            "colId": "11b62433-3d05-422a-849c-f0af64492ffb",
+            "containerId": "",
+            "name": "http://localhost:3000/produtos",
+            "url": "http://localhost:3000/produtos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-21T13:38:55.990Z",
+            "modified": "2024-05-21T13:38:55.990Z",
+            "headers": []
+        },
+        {
+            "_id": "18512075-6972-4719-b031-d7acbf8aa34c",
+            "colId": "11b62433-3d05-422a-849c-f0af64492ffb",
+            "containerId": "",
+            "name": "http://localhost:3000/produtos",
+            "url": "http://localhost:3000/produtos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-21T13:39:01.167Z",
+            "modified": "2024-05-21T13:39:01.167Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"nome\": \"araticum\",\r\n  \"preco\": 30\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b113e17d-b1d2-4d45-894d-ff8fefd32f01",
+            "colId": "11b62433-3d05-422a-849c-f0af64492ffb",
+            "containerId": "",
+            "name": "http://localhost:3000/produtos/1",
+            "url": "http://localhost:3000/produtos/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-21T13:39:05.849Z",
+            "modified": "2024-05-21T13:39:05.849Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"banana nanica\",\n  \"preco\": 1.99\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5b690144-d297-4e43-841a-510173a22ed7",
+            "colId": "11b62433-3d05-422a-849c-f0af64492ffb",
+            "containerId": "",
+            "name": "http://localhost:3000/produtos/804b",
+            "url": "http://localhost:3000/produtos/804b",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-05-21T13:39:13.211Z",
+            "modified": "2024-05-21T13:39:13.211Z",
+            "headers": []
+        }
+    ],
+    "ref": "mjskThYjacz0qoxaecR8JxUwBtQPYanZvfsReo-uX3xXTgamFupYXRmbreqzyZtxMHXK6tN7Xq2yxoYnCM_vVQ"
+}
