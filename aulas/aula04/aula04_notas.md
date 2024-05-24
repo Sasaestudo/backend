@@ -28,12 +28,16 @@
 
 ## Para executar os testes com Jest:
 
-    - npm test
+    - npm ru test
+
+## Interrompa a execução dos testes pressionando no terminal:
+
+    - "q"
 
 ## Executa o script start definido no package.json como "node index.js":
 
     - npm start
 
-## Rodar "npm run dev" e "npm test" em terminais separado
+## Rodar em terminais separados: "npm run dev" e "npm test" 
 
 
