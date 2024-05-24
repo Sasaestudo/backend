@@ -16,10 +16,6 @@
 
     - npm install --save-dev nodemon 
 
-## Para iniciar o servidor com Nodemon:
-
-    - npm run dev
-
 ## Apagar a seguintes pasta:
 
     - "public"
@@ -29,15 +25,18 @@
     - index.js
     - users.js
 
+## Para descrever detalhadamente os endpoints, parâmetros, respostas e outras informações relacionadas à API é necessáio dentro da pasta "aula07" criar o arquivo:  
+ 
+    - swagger.yaml
+
 ## Ir na pasta "routes" e criar arquivo:
   
     - "apidocs.js"
 
+## Para iniciar o servidor com Nodemon:
 
-## Para descrever detalhadamente os endpoints, parâmetros, respostas e outras informações relacionadas à API é necessáio dentro da pasta "aula07" criar o arquivo:  
- 
-    - swagger.yaml
-   
-## No navegador ou por meio de uma ferramenta como o Swagger UI, você poderá visualizar e interagir com a documentação detalhada da sua API, por meio do endpoint 
+    - npm run dev
+  
+## No navegador ou por meio de uma ferramenta como o Swagger UI, você poderá visualizar e interagir com a documentação detalhada da sua API, por meio do endpoint/URL: 
 
     - http://localhost:3000/api-docs
