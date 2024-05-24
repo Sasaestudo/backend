@@ -33,7 +33,6 @@
 
     - produtos.js 
 
-
 ## Inserir no arquivo app.js a lógica:
 
     const produtosRouter = require('./routes/produtos');
