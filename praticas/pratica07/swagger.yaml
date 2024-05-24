@@ -1,0 +1,116 @@
+openapi: 3.0.0
+info:
+  title: MINHA API REST
+  description: Uma API REST desenvolvida com Express.
+  version: 0.1.0
+servers:
+  - url: http://localhost:3000
+    description: Ambiente de desenvolvimento
+tags:
+  - name: produtos
+paths:
+  /produtos:
+    get:
+      tags: 
+        - produtos
+      responses: 
+        200:
+          description: Uma lista de produto
+          content: 
+            application/json:
+              schema: 
+                $ref: '#/components/schemas/ArrayDeProdutos'
+    post:
+      tags: 
+        - produtos
+      requestyBody:
+        description: Um JSON com dados do novo produto
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Produto'
+      responses:
+        201:
+          description: Produto criado com sucesso
+          content:
+            application/json:
+              $ref: '#/components/schemas/Produto'
+        422:
+          description: Nome e preço são obrigatórios      
+  /produtos/{produtoId}:   
+    get:
+      tags:
+        - produtos
+      parameters: 
+        - in: path
+          nome: produtoId
+          type: integer
+          requeride: true
+          description: Id do produto encontrado
+      responses: 
+        200:
+          description: Um JSON com os dados do produto encontrado
+          content:
+            application/json:
+              $ref: '#/components/schemas/Produto'
+        404: 
+          description: Produto não encontrado
+    put:
+      tags: 
+        - produtos
+      parameters:
+        - in: path
+          name: produtoId
+          type: integer
+          required: true
+          description: Id do produto a ser atualizado
+      requestBody:
+        description: Um JSON com dados do produto a ser atualizado
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Produto'
+      responses:
+        200:
+          description: Produto atualizado com sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Produto'
+        404:
+          description: Produto não encontrado
+        422:
+          description: Nome e preço são obrigatórios
+    delete:
+      tags: 
+        - produtos
+      parameters:
+        - in: path
+          name: produtoId
+          type: integer
+          required: true
+          description: Id do produto a ser removido         
+      responses:
+        204:
+          description: Produto removido com sucesso
+        404:
+          description: Produto não encontrado
+
+components:
+  schemas:
+    ArrayOfProdutos:
+      type: array
+      items:
+        $ref: '#/components/schemas/Produto'
+    Produto:
+      type: object
+      properties:
+        id: 
+          type: integer
+        nome:
+          type: string
+        preco:
+          type: number
+
