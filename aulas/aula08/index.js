@@ -1,6 +1,6 @@
 const { MongoClient, ObjectId } = require('mongodb');
 
-//Acesso
+
 const url = 'mongodb+srv://sasaestudo2018:back2024@aula08.lexywrj.mongodb.net/'
 
 async function conectar() {
