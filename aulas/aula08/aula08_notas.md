@@ -1,21 +1,21 @@
 # Comandos utilizados na aula08
 
-## Cria um novo arquivo "package.json" no diretório atual
+## Criar um novo arquivo "package.json" no diretório atual
 
-    - npm init -y
+    npm init -y
 
-## Instala o pacote mongodb e suas dependências
+## Instalar o pacote mongodb e suas dependências
 
-    - npm install mongodb
+    npm install mongodb
 
-## Instruindo o Node.js a interpretar e executar o código presente no arquivo:
+## Instruir o Node.js a interpretar e executar o código contido no arquivo index.js:
 
-    - node index.js
+    node index.js
 
-## Obtenha a URL de conexão no site do MongoDB Atlas com:
+## Obter a URL de conexão no site do MongoDB Atlas seguindo este formato:
 
-    - 'mongodb+srv://<susario>:<senha>@aula08.lexywrj.mongodb.net/'
+    'mongodb+srv://<susario>:<senha>@aula08.lexywrj.mongodb.net/'
 
 ### No site do MongoDB, no projeto "aula08", na aba "Collections", você pode ver a lista completa de produtos inseridos.
 
-### Para testar as operações de inserção, listagem, atualização e remoção no MongoDB, execute o comando node index.js no terminal para iniciar e parar a execução do script Node.js.
+### O script Node.js realiza testes das operações de inserção, listagem, atualização e remoção de produtos, conforme especificado no código do arquivo index.js, interagindo diretamente com o MongoDB.
