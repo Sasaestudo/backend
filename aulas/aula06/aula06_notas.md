@@ -1,82 +1,83 @@
 # Comandos utilizados na aula06
 
-## Dentro da pasta "aulas" crie uma estrutura básica de um aplicativo Express sem incluir um mecanismo de visualização e o nomeia como "aula06 por meio do comando: 
+## Dentro da pasta "aulas" crie uma estrutura básica de um aplicativo Express sem incluir um mecanismo de visualização e o nomeia como "aula06 por meio do comando 
 
     npx express-generator --no-view aula06
 
 ## Se der erro instale:
+
     npm install express-generator
-    repita o npx express-generator --no-view aula06
+    npx express-generator --no-view aula06
 
-## Entrar na pasta "aula06" e instalar todas as dependências listadas no package.json através do comando:
+## Entrar na pasta "aula06" e instalar todas as dependências listadas no "package.json" através do comando
 
-    - npm install
+    npm install
 
-## Apagar a seguintes pasta:
+## Deletar a pasta
 
-    - "public"
+    "public"
 
-## Deletar da pasta "routes" os arquivos:
+## Deletar da pasta "routes" os arquivos
 
-    - index.js
-    - users.js
+    index.js
+    users.js
 
-## Executa o script start definido no package.json como "node index.js":
+## Executar o script "start" definido no "package.json" como "node index.js"
 
-    - npm start
+    npm start
     
-## Dentro da pasta "aula06" criar a pasta: 
+## Dentro da pasta "aula06" criar a pasta
 
-    - "controllers"
+    "controllers"
 
-## Dentros da pasta "routes" criar arquivo:
+## Dentro da pasta "routes" criar o arquivo
 
-    - produtos.js 
+    produtos.js 
 
-## Inserir no arquivo app.js a lógica:
+## Inserir no arquivo "app.js" a lógica
 
     const produtosRouter = require('./routes/produtos');
     app.use('/produtos', produtosRouter);
 
-## Ir na pasta "controllers" e criar o arquivo:
+## Ir na pasta "controllers" e criar o arquivo
 
-    - controller_produto.js
+    controller_produto.js
 
-## Para testar todas as rotas da sua API e verificar se as funções estão funcionando corretamente usar o:
+## Para testar todas as rotas da sua API e verificar se as funções estão funcionando corretamente usar o
 
-    - Thunder Client
+    Thunder Client
 
-## Instalar a dependência "nodemon":
+## Instalar a dependência "nodemon"
 
-    - npm install --save-dev nodemon 
+    npm install --save-dev nodemon 
 
-## Ir no package.json em "scripts" e acrescentar: 
+## Ir no "package.json" na seção de "scripts" e adicionar
 
-    - "dev": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www"
 
-## Para iniciar o servidor com Nodemon:
+## Para iniciar o servidor com o Nodemon
 
-    - npm run dev
+    npm run dev
 
-## Instalação do Jest e Supertest como dependências de desenvolvimento do projeto Node.js: 
+## Instalar o Jest e o Supertest como dependências de desenvolvimento do projeto "Node.js"
 
-    - npm install --save-dev jest supertest
+    npm install --save-dev jest supertest
 
-## Para aguarda os teste crie a pasta:
+## Para aguardar os teste, crie a pasta
 
-    - test
+    test
 
-## Ir no package.json em "scripts" e acrescentar: 
+## Ir no "package.json" na seção de "scripts" e adicionar
 
-    - "test": "jest --watchAll"
+    "test": "jest --watchAll"
 
-## Ir na pasta tests e criar arquivo:
+## Ir na pasta tests e criar o arquivo
   
-    - "produtos.test.js"
+    "produtos.test.js"
 
-## Para executar os testes com Jest:
+## Executar os testes com o Jest
 
-    - npm run test
+    npm run test
 
 
 
