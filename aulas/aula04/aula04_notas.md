@@ -1,43 +1,41 @@
 # Comandos utilizados na aula04
 
 
-## Cria um novo arquivo "package.json" no diretório atual
+## Criar um novo arquivo chamado "package.json" no diretório atual
 
-    - npm init -y
+    npm init -y
 
-## Instalação do pacote Express e suas dependências:
+## Instalar o pacote Express e suas dependências
 
-    - npm install express
+    npm install express
 
-## Instalação do Jest, Nodemon e Supertest como dependências de desenvolvimento do projeto Node.js: 
+## Instalar o Jest, Nodemon e Supertest como dependências de desenvolvimento do projeto "Node.js"
 
-    - npm install --save-dev jest nodemon supertest
+    npm install --save-dev jest nodemon supertest
 
- ## Abra o arquivo package.json no VS Code e adicione os scripts "dev" e "start" com seguintes dados
+ ## Abrir o arquivo "package.json" e adicionar os scripts "dev" e "start" com os seguintes dados
 
-    - "start": "node index.js"
-    - "dev": "nodemon index.js"
+    "start": "node index.js"
+    "dev": "nodemon index.js"
 
-# Abra o arquivo package.json no VS Code e altere o comando “test” para:
+# Abrir o arquivo "package.json" e alterar o comando “test” para:
 
-    - "jest --watchAll"
+    "jest --watchAll"
 
-## Para iniciar o servidor com Nodemon:
+## Iniciar o servidor com o Nodemon
 
-    - npm run dev
+    npm run dev
 
-## Para executar os testes com Jest:
+## Executar os testes com o Jest
 
-    - npm ru test
+    npm run test
 
-## Interrompa a execução dos testes pressionando no terminal:
+## Interromper a execução dos testes pressionando no terminal
 
-    - "q"
+    "q"
 
-## Executa o script start definido no package.json como "node index.js":
+## Executar o script "start" definido no "package.json" como "node index.js"
 
-    - npm start
+    npm start
 
-## Rodar em terminais separados: "npm run dev" e "npm test" 
-
-
+## Rodar em terminais separados os comandos: "npm run dev" e "npm run test" 
