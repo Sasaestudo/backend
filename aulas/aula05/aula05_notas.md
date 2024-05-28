@@ -1,22 +1,22 @@
 # Comandos utilizados na aula05
 
 
-## Cria um novo arquivo "package.json" no diretório atual
+## Criar um novo arquivo chamado "package.json" no diretório atual
 
-    - npm init -y
+    npm init -y
 
-## Instalação do pacote Express e suas dependências:
+## Instalar o pacote Express e suas dependências
 
-    - npm install express
+    npm install express
 
-## Instalação do Jest e Supertest como dependências de desenvolvimento do projeto Node.js: 
+## Instalar o Jest e o Supertest como dependências de desenvolvimento do projeto "Node.js"
 
-    - npm install --save-dev jest supertest
+    npm install --save-dev jest supertest
 
-# Abra o arquivo package.json no VS Code e altere o comando “test” para:
+## Abrir o arquivo "package.json" e alterar o comando “test” para:
 
-    - "jest --watchAll"
+    "jest --watchAll"
 
-## Para executar os testes com Jest:
+## Executar os testes com o Jest
 
-    - npm run test
+    npm run test
