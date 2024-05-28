@@ -1,33 +1,33 @@
 # Comandos utilizados na aula03
 
 
-## Instar a biblioteca json-server: 
+## Instar a biblioteca "json-server" 
 
-    - npm install json-server
+    npm install json-server
 
-## Criar arquivo json:
+## Criar o arquivo 
 
-    - db.json
+    db.json
 
-## Executar o servidor JSON usando o json-server com o arquivo db.json:
+## Executar o servidor JSON utilizando o "json-server" com o arquivo "db.json"
 
-    - npx json-server db.json
+    npx json-server db.json
 
-## Instar a extensão:
+## Instalar a extensão para testar APIs chamada de
 
-    - Thunder Client
+    Thunder Client
 
-## Selecione o ícone do Thunder Client e clique em:
+## Para criar uma nova requisição, clique no ícone do Thunder Client e selecione a opção
 
-    - New Request
+    New Request
 
-## Colar a URL
+## Colar a URL no navegador
 
-    - http://localhost:3000/produtos
+    http://localhost:3000/produtos
 
-## Testar no Thunder Client os métodos:
+## Testar no Thunder Client os métodos
 
-    - GET, POST, PUT e DELETE
+    GET, POST, PUT e DELETE
 
 ## Testar o GET:
 
