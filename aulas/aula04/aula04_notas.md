@@ -18,7 +18,7 @@
     "start": "node index.js"
     "dev": "nodemon index.js"
 
-# Abrir o arquivo "package.json" e alterar o comando “test” para:
+## Abrir o arquivo "package.json" e alterar o comando “test” para:
 
     "jest --watchAll"
 
