@@ -1,22 +1,22 @@
 # Comandos utilizados na aula02
 
 
-## Cria um novo arquivo "package.json" no diretório atual
+## Criar um novo arquivo chamado "package.json" no diretório atual
 
-    - npm init -y
+    npm init -y
 
-## Importa a biblioteca readline-sync:
+## Importar a biblioteca readline-sync
 
-    - npm install readline-sync
+    npm install readline-sync
 
-## Criar arquivo:
+## Criar o arquivo
 
-    - index.js
+    index.js
 
-## Abra o arquivo package.json e acrescente na seção scripts o comando: 
+## Abrir o arquivo "package.json" e adicionar na seção de "scripts"
 
-    - "dev": "node index.js"
+    "dev": "node index.js"
 
-## Execute o projeto através do comando:
+## Executar o projeto
 
-    - npm run dev 
+    npm run dev 
