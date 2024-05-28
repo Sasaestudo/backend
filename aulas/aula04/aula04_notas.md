@@ -38,4 +38,4 @@
 
     npm start
 
-## Rodar em terminais separados os comandos: "npm run dev" e "npm run test" 
+### Rodar em terminais separados os comandos: "npm run dev" e "npm run test" 
