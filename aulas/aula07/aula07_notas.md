@@ -1,42 +1,42 @@
 # Comandos utilizados na aula07
 
-## Dentro da pasta "aulas" crie uma estrutura básica de um aplicativo Express sem incluir um mecanismo de visualização e o nomeia como "aula07 por meio do comando: 
+## Dentro da pasta "aulas" crie uma estrutura básica de um aplicativo Express sem incluir um mecanismo de visualização e o nomeia como "aula07 por meio do comando
 
-    - npx express-generator --no-view aula07
+    npx express-generator --no-view aula07
 
-## Entrar na pasta "aula07" e instalar todas as dependências listadas no package.json através do comando:
+## Entrar na pasta "aula07" e instalar todas as dependências listadas no "package.json" através do comando
 
-    - npm install
+    npm install
 
-## Instalar os pacotes swagger-ui-express, yaml e serve que ajudam na documentação e visualização de API:
+## Instalar os pacotes swagger-ui-express, yaml e serve que ajudam na documentação e visualização de API
 
-    - npm install swagger-ui-express yaml
+    npm install swagger-ui-express yaml
 
-## Instalar a dependência "nodemon":
+## Instalar a dependência "nodemon"
 
     - npm install --save-dev nodemon 
 
-## Apagar a seguintes pasta:
+## Deletar as pastas
 
-    - "public"
+    "public"
 
-## Deletar da pasta "routes" os arquivos:
+## Deletar da pasta "routes" os arquivos
 
-    - index.js
-    - users.js
+    index.js
+    users.js
 
-## Para descrever detalhadamente os endpoints, parâmetros, respostas e outras informações relacionadas à API é necessáio dentro da pasta "aula07" criar o arquivo:  
+## Para descrever detalhadamente os endpoints, parâmetros, respostas e outras informações relacionadas à API é necessáio dentro da pasta "aula07" criar o arquivo 
  
-    - swagger.yaml
+    swagger.yaml
 
-## Ir na pasta "routes" e criar arquivo:
+## Ir na pasta "routes" e criar o arquivo
   
-    - "apidocs.js"
+    "apidocs.js"
 
-## Para iniciar o servidor com Nodemon:
+## Para iniciar o servidor com o Nodemon
 
-    - npm run dev
+    npm run dev
   
-## No navegador ou por meio de uma ferramenta como o Swagger UI, você poderá visualizar e interagir com a documentação detalhada da sua API, por meio do endpoint/URL: 
+## No navegador ou por meio de uma ferramenta como o Swagger UI, você poderá visualizar e interagir com a documentação detalhada da sua API, por meio do endpoint/URL
 
-    - http://localhost:3000/api-docs
+    http://localhost:3000/api-docs
