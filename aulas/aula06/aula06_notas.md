@@ -2,11 +2,11 @@
 
 ## Dentro da pasta "aulas" crie uma estrutura básica de um aplicativo Express sem incluir um mecanismo de visualização e o nomeia como "aula06 por meio do comando: 
 
-    - npx express-generator --no-view aula06
+    npx express-generator --no-view aula06
 
 ## Se der erro instale:
-    - npm install express-generator
-    - repita o npx express-generator --no-view aula06
+    npm install express-generator
+    repita o npx express-generator --no-view aula06
 
 ## Entrar na pasta "aula06" e instalar todas as dependências listadas no package.json através do comando:
 
