@@ -13,7 +13,7 @@
 
     npm install --save-dev jest supertest
 
-## Abrir o arquivo "package.json" e alterar o comando “test” para:
+## Abrir o arquivo "package.json" e alterar o comando “test” para
 
     "jest --watchAll"
 
