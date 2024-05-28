@@ -8,11 +8,11 @@
 
     npm install mongodb
 
-## Instruir o Node.js a interpretar e executar o código contido no arquivo index.js:
+## Instruir o Node.js a interpretar e executar o código contido no arquivo "index.js"
 
     node index.js
 
-## Obter a URL de conexão no site do MongoDB Atlas seguindo este formato:
+## Obter a URL de conexão no site do MongoDB Atlas seguindo este formato
 
     'mongodb+srv://<susario>:<senha>@aula08.lexywrj.mongodb.net/'
 
