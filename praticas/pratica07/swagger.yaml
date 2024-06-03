@@ -4,7 +4,7 @@ info:
   description: Uma API REST desenvolvida com Express.
   version: 0.1.0
 servers:
-  - url: http://localhost:3000
+  - url: http://localhost:3000/api-docs
     description: Ambiente de desenvolvimento
 tags:
   - name: produtos
